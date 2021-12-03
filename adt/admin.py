@@ -1,5 +1,6 @@
 from django.contrib import admin
 from .models import Adt
+from .models import Rubric
 
 
 # Register your models here.
@@ -11,3 +12,4 @@ class AdtAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Adt, AdtAdmin)
+admin.site.register(Rubric)
