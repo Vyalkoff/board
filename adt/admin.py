@@ -6,8 +6,8 @@ from .models import Rubric
 # Register your models here.
 
 class AdtAdmin(admin.ModelAdmin):
-    list_display = ('title', 'content', 'price', 'published')
-    list_display_links = ('title', 'content')
+    list_display = ('title', 'content', 'price', 'published', 'rubric')
+    list_display_links = ('title',)
     search_fields = ('title', 'content')
 
 
